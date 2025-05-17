@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="100 ideas de negocio detalladas para emprendedores con perfil, habilidades requeridas, consejos y modelos de monetización">
+    <title>100 Ideas de Negocio para Emprendedores</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-lightbulb"></i>
+                <h1>100 Ideas de Negocio</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#ideas">Ideas</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="container">
+            <h2>Transforma tu visión en realidad</h2>
+            <p>Explora 100 ideas innovadoras para empezar tu emprendimiento. Encuentra la inspiración que necesitas para dar el primer paso.</p>
+        </div>
+    </section>
+
+    <section class="filters">
+        <div class="container">
+            <div class="filter-group">
+                <label for="category">Categoría:</label>
+                <select id="category">
+                    <option value="all">Todas las categorías</option>
+                    <option value="tecnologia">Tecnología</option>
+                    <option value="servicios">Servicios</option>
+                    <option value="alimentacion">Alimentación</option>
+                    <option value="educacion">Educación</option>
+                    <option value="salud">Salud y Bienestar</option>
+                    <option value="moda">Moda</option>
+                    <option value="hogar">Hogar</option>
+                    <option value="finanzas">Finanzas</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="skill">Nivel de habilidad:</label>
+                <select id="skill">
+                    <option value="all">Todos los niveles</option>
+                    <option value="principiante">Principiante</option>
+                    <option value="intermedio">Intermedio</option>
+                    <option value="avanzado">Avanzado</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="investment">Inversión requerida:</label>
+                <select id="investment">
+                    <option value="all">Todos los niveles</option>
+                    <option value="baja">Baja</option>
+                    <option value="media">Media</option>
+                    <option value="alta">Alta</option>
+                </select>
+            </div>
+            <button id="reset-filters">Resetear filtros</button>
+        </div>
+    </section>
+
+    <main class="ideas-grid" id="ideas">
+        <div class="container">
+            <div id="ideas-container"></div>
+            <button id="load-more" class="load-more-btn">Cargar más ideas</button>
+        </div>
+    </main>
+
+    <footer id="contacto">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>100 Ideas de Negocio</h3>
+                    <p>Tu fuente de inspiración para emprender.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#ideas">Ideas</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <form id="contact-form">
+                        <input type="text" placeholder="Nombre" required>
+                        <input type="email" placeholder="Email" required>
+                        <textarea placeholder="Mensaje" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 100 Ideas de Negocio. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
